@@ -1,0 +1,155 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 227, 227);
+    color: #363547;
+}
+
+#first-column{
+        flex:1;
+        display: flex;
+        align-items: center;
+}
+
+#second-column{
+        flex: 1;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+}
+
+#third-column{
+    flex:1;
+    display: flex;
+    align-items: center ;
+}
+
+
+
+/********************  class tags   ***********************************************/
+#artificial{
+    font-weight: 400;
+    font-size: medium;
+    margin-block-start: 1em;
+    margin-block-end: 0.57em;    
+}
+
+.calculator{
+    border-top: 5px solid rgb(90, 154, 179);
+    border-radius: 0.7em;
+    box-shadow: 0px 7px 24px -10px rgba(84,84,84,1);
+    background-color: white;
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+
+.icon-div1{
+        
+        display: flex;
+        margin-top: 3em;
+}
+.img-supervisor{
+    
+    display: flex;
+    margin-left: 17em;
+}
+
+.icon-div2{
+    display: flex;
+        margin-top: 3em;
+}
+
+.img-team{
+    display: flex;
+    margin-left: 27em;
+
+}
+
+
+.icon-div3{
+    display: flex;
+    margin-top: 3em;
+}
+
+.img-karma{
+    display: flex;
+    margin-left: 27em;
+
+}
+
+.icon-div4{
+    display: flex;
+        margin-top: 3em;
+
+}
+
+.img-calculator{
+    display: flex;
+    margin-left: 17em;
+
+}
+
+.karma{
+    border-top: 5px solid rgb(48, 199, 48);
+    border-radius: 0.7em;
+    width: 31em;
+    background-color: white;
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 7px 24px -10px rgba(84,84,84,1);/*box-shadow: 0 0 0.3rem 0.3rem #b49e9e98;*/
+}
+
+.middle-container{
+    display: flex;      
+    height: 600px;
+    width: 100%;
+    flex-direction: row;
+    margin-block-start: 1.57em;
+}
+#points{
+    font-weight: 400;
+    font-size: medium;
+    margin-block-start: 0.5em ;
+    margin-block-end: 0.5em ;
+}
+#powered{
+    margin-block-start: 0;
+}    
+#reliable{
+    font-weight: 200;
+    padding: 30px 0 10px 0;
+    margin-block-start: 2em;
+    margin-bottom: 0.2em;
+}
+.supervisor{
+    border-top: 5px solid rgb(128, 176, 240) ;;
+    border-radius: 0.7em;
+    background-color: white;
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 7px 24px -10px rgba(84,84,84,1);
+}
+
+.team-builder{
+    border-top: 5px solid rgb(214, 93, 93);
+    border-radius: 0.7em;
+    background-color: white;
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 7px 24px -10px rgba(84,84,84,1);
+}
+
+.top-container{
+    display: flexbox;
+    text-align: center;
+}
+
+
+ 
+
